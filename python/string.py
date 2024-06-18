@@ -11,21 +11,23 @@ else:
 
 # print(type(hello))
 
-print(hello.center(digit,  "*"))
-print("Coffee".ljust(digit,  ".") + "$5".rjust(digit-15))
+# print(hello.center(digit,  "*"))
+# print("Coffee".ljust(digit,  ".") + "$5".rjust(digit-15))
 
 mix = "World "
+print(mix)
 
+# print(mix[::2])
 # mix += hello
 
 # print(mix)
 
-print(mix + hello)
+# print(mix + hello)
 
 
-print(sstring[1])
-print(sstring[1:])
-print(sstring[1:-1])
-print(sstring.lower())
-print(sstring.upper())
-print(sstring.replace("ba", "new"))
+# print(sstring[1])
+# print(sstring[1:])
+# print(sstring[1:-1])
+# print(sstring.lower())
+# print(sstring.upper())
+# print(sstring.replace("ba", "new"))

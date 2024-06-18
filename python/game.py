@@ -17,10 +17,10 @@ digital = random.choice("123")
 
 computer = int(digital)
 
-print("")
+print("=================")
 print("You chose " + str(RPS(player)).replace("RPS.", "") + ".")
 print("Computer chose " + str(RPS(computer)).replace("RPS.", "") + ".")
-print("")
+print("=================")
 
 if player == 1 and computer == 3: print("Congratulations! You won this time ㊗️💪😄.")
 elif player == 2 and computer == 1: print("Congratulations! You won this time ㊗️💪😄.")
@@ -28,4 +28,6 @@ elif player == 3 and computer == 2: print("Congratulations! You won this time �
 elif player == computer: print("🤝 It's a tie game .")
 else: print("Python wins 💥")
 
-    # print("Congratulations! You won this time ㊗️💪😄.")
+print("it was good game")
+
+# print("Congratulations! You won this time ㊗️💪😄.")
